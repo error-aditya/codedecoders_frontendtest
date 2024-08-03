@@ -1,0 +1,154 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+ul {
+    text-align: right;
+}
+
+ul button {
+    text-align: right;
+    font-size: 20px;
+    background: transparent;
+    color: transparent;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: #e2e2e2;
+    padding: 5em 1em;
+    text-align: left;
+    margin-left: 300px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 0 0 1em;
+}
+.hero button{
+    margin-left: 20px;
+}
+
+.cta {
+    background: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.download, .mission, .featured {
+    padding: 5em 1em;
+    font-size: large;
+    text-align: left;
+    margin-left: 300px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer-links, .contact, .legal {
+    margin: 1em 0;
+}
+
+.we{
+    text-align: right;
+
+}
+.footer-links a, .legal a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0.5em 0;
+}
+
+.featured{
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact form label, .contact form input, .contact form button {
+    margin: 0.5em 0;
+}
+
+.contact form input[type="text"], .contact form input[type="email"] {
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact form input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+.contact form button {
+    background: #555;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0 0 8px;
+    font-size: 1.5em;
+}
+
+.card-description {
+    margin: 0 0 16px;
+    color: #666;
+}
